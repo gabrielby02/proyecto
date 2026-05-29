@@ -26,6 +26,7 @@
         }
         .header{
             height: 90vh;
+            background-image: url('imagenes/fondopri.jfif');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -51,6 +52,8 @@
             background-color: #2a9dc4;
             color: white;
             padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
             transition: 0.3s;
         }
         .btn-custom:hover{
@@ -82,19 +85,19 @@
             color: #00ff99;
             font-size: 20px;
         }
-        .rating1{
+        .puntuacion1{
             color: gold;
         }
-        .rating2{
+        .puntuacion2{
             color:#00FF99;
         }
-        .rating3{
+        .puntuacion3{
             color:#00BFFF;
         }
-        .rating4{
+        .puntuacion4{
             color:#FF9900;
         }
-        .rating5{
+        .puntuacion5{
             color:red;
         }
         .form-section{

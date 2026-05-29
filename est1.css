@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    color: #ff4444 !important;
+    font-size: 28px;
+    font-weight: bold;
+}
+.nav-link{
+    color: white !important;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+.nav-link:hover{
+    color: #ff4444 !important;
+}
+.banner{
+    height: 90vh;
+    background-image: url('imagenes/fondo3.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-content{
+    background-color: rgba(0,0,0,0.7);
+    padding: 40px;
+    border-radius: 15px;
+}
+.banner h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.score{
+    color: gold;
+    font-size: 30px;
+}
+section{
+    margin-top: 70px;
+}
+h2{
+    color: #ff4444;
+    margin-bottom: 25px;
+}
+.details ul{
+    list-style: none;
+    padding: 0;
+}
+.details li{
+    margin-bottom: 15px;
+    background-color: #1c1c1c;
+    padding: 15px;
+    border-radius: 10px;
+}
+.curiosidades ul li{
+    margin-bottom: 15px;
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-left: 4px solid #ff4444;
+    border-right: 4px solid #ff4444;
+    list-style: none;
+}
+.imagen-juego:hover{
+    transform: scale(1.03);
+}
+.buttons-section{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.buttons-section .btn{
+    margin: 10px;
+    padding: 12px 25px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
