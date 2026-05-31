@@ -11,7 +11,7 @@
         .navbar{
             background-color: #000;
         }
-        .navbar-brand{
+        .navbar-titulo{
             font-size: 28px;
             font-weight: bold;
             color: #00bfff;
@@ -34,7 +34,7 @@
             align-items: center;
             text-align: center;
         }
-        .header-text{
+        .header-texto{
             background-color: rgba(0, 0, 0, 0.7);
             padding: 100px;
             border-radius: 20px;
@@ -48,7 +48,7 @@
             font-size: 25px;
             margin-bottom: 10px;
         }
-        .btn-custom{
+        .btn-customizado{
             background-color: #2a9dc4;
             color: white;
             padding: 10px 20px;
@@ -56,13 +56,13 @@
             border: none;
             transition: 0.3s;
         }
-        .btn-custom:hover{
+        .btn-customizado:hover{
             background-color: #054763;
         }
-        .games{
+        .juegos{
             padding: 60px 0;
         }
-        .section-title{
+        .seccion-titulo{
             text-align: center;
             margin-bottom: 50px;
             font-size: 40px;
@@ -72,7 +72,7 @@
             background-color: #1c1c1c;
             color: white;
             border: none;
-            transition: 0.3s;
+            transition: 0.5s;
         }
         .card:hover{
             transform: scale(1.03);
@@ -81,7 +81,7 @@
             height: 250px;
             object-fit: cover;
         }
-        .price{
+        .precio{
             color: #00ff99;
             font-size: 20px;
         }
@@ -106,6 +106,10 @@
         }
         .form-control{
             margin-bottom: 20px;
+        }
+        .compra{
+            background-color: #353535;
+            padding: 25px;
         }
         footer{
             background-color: black;

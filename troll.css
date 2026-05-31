@@ -30,3 +30,14 @@ a{
     font-size: 20px;
     border-radius: 5px;
 }
+.btn-customizado{
+background-color: #2a9dc4;
+color: white;
+padding: 10px 20px;
+border-radius: 10px;
+border: none;
+transition: 0.3s;
+}
+.btn-customizado:hover{
+background-color: #054763;
+}

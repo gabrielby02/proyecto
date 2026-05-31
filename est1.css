@@ -11,7 +11,7 @@ body{
 .navbar{
     background-color: black;
 }
-.navbar-brand{
+.navbar-titulo{
     color: #ff4444 !important;
     font-size: 28px;
     font-weight: bold;
@@ -24,17 +24,7 @@ body{
 .nav-link:hover{
     color: #ff4444 !important;
 }
-.banner{
-    height: 90vh;
-    background-image: url('imagenes/fondo3.webp');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.banner-content{
+.banner-fondo{
     background-color: rgba(0,0,0,0.7);
     padding: 40px;
     border-radius: 15px;
@@ -43,7 +33,7 @@ body{
     font-size: 60px;
     margin-bottom: 15px;
 }
-.score{
+.nota{
     color: gold;
     font-size: 30px;
 }
@@ -54,11 +44,11 @@ h2{
     color: #ff4444;
     margin-bottom: 25px;
 }
-.details ul{
+.detalles ul{
     list-style: none;
     padding: 0;
 }
-.details li{
+.detalles li{
     margin-bottom: 15px;
     background-color: #1c1c1c;
     padding: 15px;
@@ -75,11 +65,11 @@ h2{
 .imagen-juego:hover{
     transform: scale(1.03);
 }
-.buttons-section{
+.boton-seccion{
     text-align: center;
     margin-bottom: 60px;
 }
-.buttons-section .btn{
+.boton-seccion .btn{
     margin: 10px;
     padding: 12px 25px;
 }
