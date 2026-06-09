@@ -1,3 +1,5 @@
+/*estilos gloables xd*/
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,9 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*estilos de navegacion*/
+
 .navbar{
     background-color: black;
 }
@@ -44,6 +49,9 @@ h2{
     color: #ff4444;
     margin-bottom: 25px;
 }
+
+/*estilos de detalles del juego*/
+
 .detalles ul{
     list-style: none;
     padding: 0;
@@ -54,6 +62,9 @@ h2{
     padding: 15px;
     border-radius: 10px;
 }
+
+/**estilos de curiosidades del juego*/
+
 .curiosidades ul li{
     margin-bottom: 15px;
     background-color: #1a1a1a;
@@ -65,6 +76,9 @@ h2{
 .imagen-juego:hover{
     transform: scale(1.03);
 }
+
+/*estilos de botones*/
+
 .boton-seccion{
     text-align: center;
     margin-bottom: 60px;
@@ -73,6 +87,9 @@ h2{
     margin: 10px;
     padding: 12px 25px;
 }
+
+/*final footer*/
+
 footer{
     background-color: black;
     text-align: center;

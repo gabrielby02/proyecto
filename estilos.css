@@ -1,3 +1,4 @@
+        /*estilos globales xd*/
         *{
             margin: 0;
             padding: 0;
@@ -8,6 +9,9 @@
             color: white;
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        /*estilos de navegacion del header*/
+
         .navbar{
             background-color: #000;
         }
@@ -48,6 +52,9 @@
             font-size: 25px;
             margin-bottom: 10px;
         }
+
+        /*estilos del boton*/
+        
         .btn-customizado{
             background-color: #2a9dc4;
             color: white;
@@ -59,6 +66,7 @@
         .btn-customizado:hover{
             background-color: #054763;
         }
+        /*estilos del contenido de juegos*/
         .juegos{
             padding: 60px 0;
         }
@@ -81,6 +89,9 @@
             height: 250px;
             object-fit: cover;
         }
+
+        /*estilos de valoracion*/
+        
         .precio{
             color: #00ff99;
             font-size: 20px;
@@ -100,6 +111,9 @@
         .puntuacion5{
             color:red;
         }
+
+        /*estilos del formulario*/
+
         .form-section{
             background-color: #1a1a1a;
             padding: 60px 0;
@@ -111,6 +125,9 @@
             background-color: #353535;
             padding: 25px;
         }
+
+        /*parte del footer*/
+
         footer{
             background-color: black;
             text-align: center;

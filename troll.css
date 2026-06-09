@@ -1,3 +1,5 @@
+/*estilos troll xd*/
+
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +23,9 @@ p{
     font-size: 25px;
     margin-bottom: 30px;
 }
+
+/*video con etiqueta curiosa*/
+
 iframe{
     border-radius: 15px;
 }
@@ -30,6 +35,9 @@ a{
     font-size: 20px;
     border-radius: 5px;
 }
+
+/*estilo del boton*/
+
 .btn-customizado{
 background-color: #2a9dc4;
 color: white;
